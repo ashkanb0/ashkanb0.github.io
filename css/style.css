@@ -55,11 +55,16 @@ div.sentence{
 div.sidebar{
 	width: 20%;
 	float: left;
-	height: 300px;
+	/*height: 300px;*/
+}
+
+div.menu-bar{
+	position: fixed;
+	width: 20%;
 }
 
 .sidebar div.menu-bar .menu{
-	margin-top: 120%;
+	margin-top: 50%;
 }
 
 
@@ -73,6 +78,10 @@ ul.menu li{
 	font-size: 20pt;
 	background-color: rgba(0,0,0,0.1);
 	display: block;
+}
+
+ul.menu li span span{
+	text-decoration: underline;
 }
 
 ul.menu li:hover{
@@ -122,17 +131,11 @@ div.part-gray{
 div.part-darkblue{
 	border-color: #0185ab;
 }
-div.part-darkblue{
-	border-color: #0185ab;
-}
-div.part-greenblue{
-	border-color: #00aaad;
-}
 div.part-greenblue{
 	border-color: #00aaad;
 }
 div.part-darkorange{
-	border-color: #0185ab;
+	border-color: #b04c30;
 }
 div.part-brown{
 	border-color: #905a3e;
@@ -218,3 +221,10 @@ b{
 	font-weight: bold;
 }
 
+div.simple-list{
+	margin-left: 10%;
+}
+
+div.space-left{
+	margin-left: 10%;
+}
