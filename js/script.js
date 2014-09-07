@@ -54,6 +54,20 @@ $(function () {
 		$(this).attr('target', '_blank')
 	})
 
-	gotopart('a')
+	$('a.namah').each(function(){
+		addr = $(this).attr('href');
+		// console.log(addr)
+		addr = addr.replace(' -at- ', '@')
+		$(this).attr('href', addr)
+	})
 
+	$('div.namah').each(function(){
+		addr = $(this).html()
+		addr = addr.replace(' -at- ', '@')
+		$(this).html(addr)
+	})
+
+
+
+	gotopart('a');
 })
