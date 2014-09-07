@@ -80,6 +80,7 @@ ul.menu li{
 	display: block;
 }
 
+
 ul.menu li span span{
 	text-decoration: underline;
 }
@@ -228,3 +229,30 @@ div.simple-list{
 div.space-left{
 	margin-left: 10%;
 }
+
+img.link{
+	width: 50px;
+	margin-bottom: -10px;
+	margin-top: -10px;
+}
+
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab'), local('JosefinSlab'), url(../fonts/JSBold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Slab Bold'), local('JosefinSlab-Bold'), url(../fonts/JS.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Bad Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bad Script Regular'), local('BadScript-Regular'), url(../fonts/BadScript.woff) format('woff');
+}
+

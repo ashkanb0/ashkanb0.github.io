@@ -50,7 +50,10 @@ $(function () {
 		})
 	})
 
+	$('a').each(function(){
+		$(this).attr('target', '_blank')
+	})
 
+	gotopart('a')
 
-	$('.part-link')[0].click()
 })
